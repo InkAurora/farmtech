@@ -1,0 +1,91 @@
+########## estatisticas.R - CSV completo ##########
+
+==============================================================
+FarmTech Solutions - Analise estatistica dos plantios
+Arquivo: /home/ink/FIAP/fase1/farmtech/dados/plantios.csv
+==============================================================
+
+CANA-DE-ACUCAR (3 registro(s))
+----------------------------------------------------------------------------------------------------------------------
+  Area         n=3   media=       45,67  dp=       25,89  min=       26,00  mediana=       36,00  max=       75,00  soma=      137,00  ha
+  Insumo       n=3   media=       99,17  dp=       29,55  min=       67,50  mediana=      104,00  max=      126,00  soma=      297,50  L
+
+LARANJA (2 registro(s))
+----------------------------------------------------------------------------------------------------------------------
+  Area         n=2   media=        8,52  dp=        1,19  min=        7,68  mediana=        8,52  max=        9,36  soma=       17,04  ha
+  Insumo       n=2   media=    4.380,00  dp=    2.291,03  min=    2.760,00  mediana=    4.380,00  max=    6.000,00  soma=    8.760,00  L
+
+TODAS AS CULTURAS (5 registro(s))
+----------------------------------------------------------------------------------------------------------------------
+  Area         n=5   media=       30,81  dp=       27,38  min=        7,68  mediana=       26,00  max=       75,00  soma=      154,04  ha
+  Insumo       n=5   media=    1.811,50  dp=    2.609,65  min=       67,50  mediana=      126,00  max=    6.000,00  soma=    9.057,50  L
+
+Produtos utilizados:
+  Herbicida Tebutiurom         2 aplicacao(oes)
+  Fungicida cuprico            1 aplicacao(oes)
+  Maturador Sulfometuron       1 aplicacao(oes)
+  Oleo mineral                 1 aplicacao(oes)
+
+Observacao: a coluna 'dose' mistura unidades (L/ha na cana, mL/m de rua
+na laranja); por isso a estatistica e feita sobre area e insumo total.
+
+
+########## estatisticas.R - cultura com um unico registro ##########
+
+==============================================================
+FarmTech Solutions - Analise estatistica dos plantios
+Arquivo: testes/tmp/um_registro.csv
+==============================================================
+
+CANA-DE-ACUCAR (2 registro(s))
+----------------------------------------------------------------------------------------------------------------------
+  Area         n=2   media=       31,00  dp=        7,07  min=       26,00  mediana=       31,00  max=       36,00  soma=       62,00  ha
+  Insumo       n=2   media=      115,00  dp=       15,56  min=      104,00  mediana=      115,00  max=      126,00  soma=      230,00  L
+
+LARANJA (1 registro(s))
+----------------------------------------------------------------------------------------------------------------------
+  Area         n=1   media=        9,36  dp=         n/d  min=        9,36  mediana=        9,36  max=        9,36  soma=        9,36  ha
+  Insumo       n=1   media=    6.000,00  dp=         n/d  min=    6.000,00  mediana=    6.000,00  max=    6.000,00  soma=    6.000,00  L
+  Aviso: com menos de dois registros o desvio-padrao nao e definido (sd() devolve NA).
+
+TODAS AS CULTURAS (3 registro(s))
+----------------------------------------------------------------------------------------------------------------------
+  Area         n=3   media=       23,79  dp=       13,46  min=        9,36  mediana=       26,00  max=       36,00  soma=       71,36  ha
+  Insumo       n=3   media=    2.076,67  dp=    3.397,72  min=      104,00  mediana=      126,00  max=    6.000,00  soma=    6.230,00  L
+
+Produtos utilizados:
+  Herbicida Tebutiurom         2 aplicacao(oes)
+  Oleo mineral                 1 aplicacao(oes)
+
+Observacao: a coluna 'dose' mistura unidades (L/ha na cana, mL/m de rua
+na laranja); por isso a estatistica e feita sobre area e insumo total.
+
+
+########## estatisticas.R - arquivo inexistente ##########
+ERRO: arquivo informado nao existe: testes/tmp/nao_existe.csv 
+
+########## clima.R - clima atual da fazenda ##########
+
+==============================
+Clima da fazenda
+==============================
+Coordenadas:   -21.1775, -47.8103
+Leitura:       2026-09-03T20:15
+Temperatura:   21,7 °C
+Umidade:       62,0 %
+Precipitacao:  0,0 mm
+Vento:         7,6 km/h
+------------------------------
+Fonte: Open-Meteo (httr2)
+Recomendacao: condicoes adequadas para pulverizacao.
+
+
+########## clima.R - sem acesso a internet ##########
+
+Nao foi possivel consultar a previsao do tempo.
+Motivo: Failed to perform HTTP request.
+Caused by error in `curl::curl_fetch_memory()`:
+! Could not connect to server [api.open-meteo.com]:
+Failed to connect to api.open-meteo.com port 443 via 127.0.0.1 after 0 ms: Could not connect to server
+Verifique a conexao com a internet e tente novamente.
+

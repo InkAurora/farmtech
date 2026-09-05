@@ -1,0 +1,541 @@
+########## SESSÃO 1 - CRUD completo + validações (entrada_demo.txt) ##########
+FarmTech Solutions - Fazenda modelo (interior de São Paulo)
+Culturas atendidas: cana-de-açúcar (retângulo) e laranja (trapézio).
+Carregar os dados já exportados em dados/plantios.csv? (s/n): 
+=========== FarmTech Solutions ===========
+1 - Cadastrar plantio
+2 - Listar dados e resultados
+3 - Atualizar registro
+4 - Excluir registro
+5 - Exportar dados para CSV
+6 - Sair
+==========================================
+Escolha uma opção:   !! Opção inválida. Escolha uma entre: 1, 2, 3, 4, 5, 6.
+Escolha uma opção: 
+--- Cadastro de plantio ---
+
+Culturas disponíveis:
+  1 - Cana-de-açúcar (retângulo)
+  2 - Laranja (trapézio)
+Escolha a cultura: Comprimento do talhão (m):   !! Valor inválido. Use apenas números (ex.: 250 ou 250,5).
+Comprimento do talhão (m):   !! O valor precisa ser maior que 0.00.
+Comprimento do talhão (m): Largura do talhão (m): Produto aplicado: Dose do produto (L/ha): 
+>> Plantio cadastrado com sucesso.
+
+  Índice 0 | ID 1 | Cana-de-açúcar
+    Comprimento do talhão: 800,00 | Largura do talhão: 450,00
+    Área: 360.000,00 m²  (36,00 ha)
+    Produto: Herbicida Tebutiurom | Dose: 3,50 L/ha
+    Insumo total: 126,00 L
+
+=========== FarmTech Solutions ===========
+1 - Cadastrar plantio
+2 - Listar dados e resultados
+3 - Atualizar registro
+4 - Excluir registro
+5 - Exportar dados para CSV
+6 - Sair
+==========================================
+Escolha uma opção: 
+--- Cadastro de plantio ---
+
+Culturas disponíveis:
+  1 - Cana-de-açúcar (retângulo)
+  2 - Laranja (trapézio)
+Escolha a cultura: Comprimento do talhão (m): Largura do talhão (m): Produto aplicado: Dose do produto (L/ha): 
+>> Plantio cadastrado com sucesso.
+
+  Índice 1 | ID 2 | Cana-de-açúcar
+    Comprimento do talhão: 620,00 | Largura do talhão: 380,00
+    Área: 235.600,00 m²  (23,56 ha)
+    Produto: Herbicida Tebutiurom | Dose: 4,00 L/ha
+    Insumo total: 94,24 L
+
+=========== FarmTech Solutions ===========
+1 - Cadastrar plantio
+2 - Listar dados e resultados
+3 - Atualizar registro
+4 - Excluir registro
+5 - Exportar dados para CSV
+6 - Sair
+==========================================
+Escolha uma opção: 
+--- Cadastro de plantio ---
+
+Culturas disponíveis:
+  1 - Cana-de-açúcar (retângulo)
+  2 - Laranja (trapézio)
+Escolha a cultura: Comprimento do talhão (m): Largura do talhão (m): Produto aplicado: Dose do produto (L/ha): 
+>> Plantio cadastrado com sucesso.
+
+  Índice 2 | ID 3 | Cana-de-açúcar
+    Comprimento do talhão: 1.250,00 | Largura do talhão: 600,00
+    Área: 750.000,00 m²  (75,00 ha)
+    Produto: Maturador Sulfometuron | Dose: 0,90 L/ha
+    Insumo total: 67,50 L
+
+=========== FarmTech Solutions ===========
+1 - Cadastrar plantio
+2 - Listar dados e resultados
+3 - Atualizar registro
+4 - Excluir registro
+5 - Exportar dados para CSV
+6 - Sair
+==========================================
+Escolha uma opção: 
+--- Cadastro de plantio ---
+
+Culturas disponíveis:
+  1 - Cana-de-açúcar (retângulo)
+  2 - Laranja (trapézio)
+Escolha a cultura: Base maior do talhão (m): Base menor do talhão (m): Altura entre as bases (m): Quantidade de ruas:   !! Digite um número inteiro (sem casas decimais).
+Quantidade de ruas: Comprimento médio de cada rua (m): Produto aplicado: Dose do produto (mL por metro de rua): 
+>> Plantio cadastrado com sucesso.
+
+  Índice 3 | ID 4 | Laranja
+    Base maior do talhão: 420,00 | Base menor do talhão: 300,00 | Altura entre as bases: 260,00 | Quantidade de ruas: 48 | Comprimento médio de cada rua: 250,00
+    Área: 93.600,00 m²  (9,36 ha)
+    Produto: Oleo mineral | Dose: 500,00 mL/m
+    Insumo total: 6.000,00 L
+
+=========== FarmTech Solutions ===========
+1 - Cadastrar plantio
+2 - Listar dados e resultados
+3 - Atualizar registro
+4 - Excluir registro
+5 - Exportar dados para CSV
+6 - Sair
+==========================================
+Escolha uma opção: 
+--- Cadastro de plantio ---
+
+Culturas disponíveis:
+  1 - Cana-de-açúcar (retângulo)
+  2 - Laranja (trapézio)
+Escolha a cultura: Base maior do talhão (m): Base menor do talhão (m): Altura entre as bases (m): Quantidade de ruas: Comprimento médio de cada rua (m): Produto aplicado: Dose do produto (mL por metro de rua): 
+>> Plantio cadastrado com sucesso.
+
+  Índice 4 | ID 5 | Laranja
+    Base maior do talhão: 380,00 | Base menor do talhão: 260,00 | Altura entre as bases: 240,00 | Quantidade de ruas: 40 | Comprimento médio de cada rua: 230,00
+    Área: 76.800,00 m²  (7,68 ha)
+    Produto: Fungicida cuprico | Dose: 300,00 mL/m
+    Insumo total: 2.760,00 L
+
+=========== FarmTech Solutions ===========
+1 - Cadastrar plantio
+2 - Listar dados e resultados
+3 - Atualizar registro
+4 - Excluir registro
+5 - Exportar dados para CSV
+6 - Sair
+==========================================
+Escolha uma opção: 
+--- Cadastro de plantio ---
+
+Culturas disponíveis:
+  1 - Cana-de-açúcar (retângulo)
+  2 - Laranja (trapézio)
+Escolha a cultura: Base maior do talhão (m): Base menor do talhão (m): Altura entre as bases (m): Quantidade de ruas: Comprimento médio de cada rua (m): Produto aplicado: Dose do produto (mL por metro de rua): 
+>> Plantio cadastrado com sucesso.
+
+  Índice 5 | ID 6 | Laranja
+    Base maior do talhão: 300,00 | Base menor do talhão: 200,00 | Altura entre as bases: 150,00 | Quantidade de ruas: 30 | Comprimento médio de cada rua: 180,00
+    Área: 37.500,00 m²  (3,75 ha)
+    Produto: Oleo mineral | Dose: 450,00 mL/m
+    Insumo total: 2.430,00 L
+
+=========== FarmTech Solutions ===========
+1 - Cadastrar plantio
+2 - Listar dados e resultados
+3 - Atualizar registro
+4 - Excluir registro
+5 - Exportar dados para CSV
+6 - Sair
+==========================================
+Escolha uma opção: 
+====================================================================================================
+Idx  ID Cultura              Área (m²)  Área (ha) Produto                        Dose   Insumo (L)
+----------------------------------------------------------------------------------------------------
+  0   1 Cana-de-açúcar      360.000,00      36,00 Herbicida Tebutiurom      3,50 L/ha       126,00
+  1   2 Cana-de-açúcar      235.600,00      23,56 Herbicida Tebutiurom      4,00 L/ha        94,24
+  2   3 Cana-de-açúcar      750.000,00      75,00 Maturador Sulfometuron    0,90 L/ha        67,50
+  3   4 Laranja              93.600,00       9,36 Oleo mineral            500,00 mL/m     6.000,00
+  4   5 Laranja              76.800,00       7,68 Fungicida cuprico       300,00 mL/m     2.760,00
+  5   6 Laranja              37.500,00       3,75 Oleo mineral            450,00 mL/m     2.430,00
+----------------------------------------------------------------------------------------------------
+Resumo por cultura:
+  Cana-de-açúcar    3 registro(s) | 134,56 ha | 287,74 L de insumo
+  Laranja           3 registro(s) | 20,79 ha | 11.190,00 L de insumo
+  TOTAL             6 registro(s) | 155,35 ha | 11.477,74 L de insumo
+====================================================================================================
+
+=========== FarmTech Solutions ===========
+1 - Cadastrar plantio
+2 - Listar dados e resultados
+3 - Atualizar registro
+4 - Excluir registro
+5 - Exportar dados para CSV
+6 - Sair
+==========================================
+Escolha uma opção: 
+--- Atualização de registro ---
+
+====================================================================================================
+Idx  ID Cultura              Área (m²)  Área (ha) Produto                        Dose   Insumo (L)
+----------------------------------------------------------------------------------------------------
+  0   1 Cana-de-açúcar      360.000,00      36,00 Herbicida Tebutiurom      3,50 L/ha       126,00
+  1   2 Cana-de-açúcar      235.600,00      23,56 Herbicida Tebutiurom      4,00 L/ha        94,24
+  2   3 Cana-de-açúcar      750.000,00      75,00 Maturador Sulfometuron    0,90 L/ha        67,50
+  3   4 Laranja              93.600,00       9,36 Oleo mineral            500,00 mL/m     6.000,00
+  4   5 Laranja              76.800,00       7,68 Fungicida cuprico       300,00 mL/m     2.760,00
+  5   6 Laranja              37.500,00       3,75 Oleo mineral            450,00 mL/m     2.430,00
+----------------------------------------------------------------------------------------------------
+Resumo por cultura:
+  Cana-de-açúcar    3 registro(s) | 134,56 ha | 287,74 L de insumo
+  Laranja           3 registro(s) | 20,79 ha | 11.190,00 L de insumo
+  TOTAL             6 registro(s) | 155,35 ha | 11.477,74 L de insumo
+====================================================================================================
+Índice do registro que deseja atualizar (ENTER cancela):   !! Índice inexistente. Use um valor entre 0 e 5.
+Índice do registro que deseja atualizar (ENTER cancela): 
+  Índice 1 | ID 2 | Cana-de-açúcar
+    Comprimento do talhão: 620,00 | Largura do talhão: 380,00
+    Área: 235.600,00 m²  (23,56 ha)
+    Produto: Herbicida Tebutiurom | Dose: 4,00 L/ha
+    Insumo total: 94,24 L
+
+O que deseja atualizar?
+  1 - Dimensões do talhão
+  2 - Produto e dose
+  3 - Tudo (inclusive a cultura)
+  0 - Cancelar
+Opção: (ENTER mantém o valor atual)
+Comprimento do talhão (m) [620.0]: Largura do talhão (m) [380.0]: 
+>> Registro atualizado e resultados recalculados.
+
+  Índice 1 | ID 2 | Cana-de-açúcar
+    Comprimento do talhão: 650,00 | Largura do talhão: 400,00
+    Área: 260.000,00 m²  (26,00 ha)
+    Produto: Herbicida Tebutiurom | Dose: 4,00 L/ha
+    Insumo total: 104,00 L
+
+=========== FarmTech Solutions ===========
+1 - Cadastrar plantio
+2 - Listar dados e resultados
+3 - Atualizar registro
+4 - Excluir registro
+5 - Exportar dados para CSV
+6 - Sair
+==========================================
+Escolha uma opção: 
+--- Exclusão de registro ---
+
+====================================================================================================
+Idx  ID Cultura              Área (m²)  Área (ha) Produto                        Dose   Insumo (L)
+----------------------------------------------------------------------------------------------------
+  0   1 Cana-de-açúcar      360.000,00      36,00 Herbicida Tebutiurom      3,50 L/ha       126,00
+  1   2 Cana-de-açúcar      260.000,00      26,00 Herbicida Tebutiurom      4,00 L/ha       104,00
+  2   3 Cana-de-açúcar      750.000,00      75,00 Maturador Sulfometuron    0,90 L/ha        67,50
+  3   4 Laranja              93.600,00       9,36 Oleo mineral            500,00 mL/m     6.000,00
+  4   5 Laranja              76.800,00       7,68 Fungicida cuprico       300,00 mL/m     2.760,00
+  5   6 Laranja              37.500,00       3,75 Oleo mineral            450,00 mL/m     2.430,00
+----------------------------------------------------------------------------------------------------
+Resumo por cultura:
+  Cana-de-açúcar    3 registro(s) | 137,00 ha | 297,50 L de insumo
+  Laranja           3 registro(s) | 20,79 ha | 11.190,00 L de insumo
+  TOTAL             6 registro(s) | 157,79 ha | 11.487,50 L de insumo
+====================================================================================================
+Índice do registro que deseja excluir (ENTER cancela): 
+  Índice 5 | ID 6 | Laranja
+    Base maior do talhão: 300,00 | Base menor do talhão: 200,00 | Altura entre as bases: 150,00 | Quantidade de ruas: 30 | Comprimento médio de cada rua: 180,00
+    Área: 37.500,00 m²  (3,75 ha)
+    Produto: Oleo mineral | Dose: 450,00 mL/m
+    Insumo total: 2.430,00 L
+
+Confirma a exclusão deste registro? (s/n): >> Registro removido. Restam 5 registro(s).
+
+=========== FarmTech Solutions ===========
+1 - Cadastrar plantio
+2 - Listar dados e resultados
+3 - Atualizar registro
+4 - Excluir registro
+5 - Exportar dados para CSV
+6 - Sair
+==========================================
+Escolha uma opção: 
+====================================================================================================
+Idx  ID Cultura              Área (m²)  Área (ha) Produto                        Dose   Insumo (L)
+----------------------------------------------------------------------------------------------------
+  0   1 Cana-de-açúcar      360.000,00      36,00 Herbicida Tebutiurom      3,50 L/ha       126,00
+  1   2 Cana-de-açúcar      260.000,00      26,00 Herbicida Tebutiurom      4,00 L/ha       104,00
+  2   3 Cana-de-açúcar      750.000,00      75,00 Maturador Sulfometuron    0,90 L/ha        67,50
+  3   4 Laranja              93.600,00       9,36 Oleo mineral            500,00 mL/m     6.000,00
+  4   5 Laranja              76.800,00       7,68 Fungicida cuprico       300,00 mL/m     2.760,00
+----------------------------------------------------------------------------------------------------
+Resumo por cultura:
+  Cana-de-açúcar    3 registro(s) | 137,00 ha | 297,50 L de insumo
+  Laranja           2 registro(s) | 17,04 ha | 8.760,00 L de insumo
+  TOTAL             5 registro(s) | 154,04 ha | 9.057,50 L de insumo
+====================================================================================================
+
+=========== FarmTech Solutions ===========
+1 - Cadastrar plantio
+2 - Listar dados e resultados
+3 - Atualizar registro
+4 - Excluir registro
+5 - Exportar dados para CSV
+6 - Sair
+==========================================
+Escolha uma opção: 
+--- Exportação para CSV ---
+>> 5 registro(s) exportado(s) para /home/ink/FIAP/fase1/farmtech/dados/plantios.csv
+   Analise com: Rscript r/estatisticas.R
+
+=========== FarmTech Solutions ===========
+1 - Cadastrar plantio
+2 - Listar dados e resultados
+3 - Atualizar registro
+4 - Excluir registro
+5 - Exportar dados para CSV
+6 - Sair
+==========================================
+Escolha uma opção: Exportar os dados antes de sair? (s/n): 
+Encerrando. Bom plantio!
+
+########## SESSÃO 2 - operações com vetores vazios (entrada_vazio.txt) ##########
+FarmTech Solutions - Fazenda modelo (interior de São Paulo)
+Culturas atendidas: cana-de-açúcar (retângulo) e laranja (trapézio).
+Carregar os dados já exportados em dados/plantios.csv? (s/n): 
+=========== FarmTech Solutions ===========
+1 - Cadastrar plantio
+2 - Listar dados e resultados
+3 - Atualizar registro
+4 - Excluir registro
+5 - Exportar dados para CSV
+6 - Sair
+==========================================
+Escolha uma opção: 
+>> Nenhum plantio cadastrado ainda. Use a opção 1 do menu.
+
+=========== FarmTech Solutions ===========
+1 - Cadastrar plantio
+2 - Listar dados e resultados
+3 - Atualizar registro
+4 - Excluir registro
+5 - Exportar dados para CSV
+6 - Sair
+==========================================
+Escolha uma opção: 
+--- Exportação para CSV ---
+
+>> Nenhum plantio cadastrado ainda. Use a opção 1 do menu.
+
+=========== FarmTech Solutions ===========
+1 - Cadastrar plantio
+2 - Listar dados e resultados
+3 - Atualizar registro
+4 - Excluir registro
+5 - Exportar dados para CSV
+6 - Sair
+==========================================
+Escolha uma opção: 
+--- Atualização de registro ---
+
+>> Nenhum plantio cadastrado ainda. Use a opção 1 do menu.
+
+=========== FarmTech Solutions ===========
+1 - Cadastrar plantio
+2 - Listar dados e resultados
+3 - Atualizar registro
+4 - Excluir registro
+5 - Exportar dados para CSV
+6 - Sair
+==========================================
+Escolha uma opção: 
+--- Exclusão de registro ---
+
+>> Nenhum plantio cadastrado ainda. Use a opção 1 do menu.
+
+=========== FarmTech Solutions ===========
+1 - Cadastrar plantio
+2 - Listar dados e resultados
+3 - Atualizar registro
+4 - Excluir registro
+5 - Exportar dados para CSV
+6 - Sair
+==========================================
+Escolha uma opção: 
+Encerrando. Bom plantio!
+
+########## SESSÃO 3 - recarga do CSV e cancelamentos (entrada_edge.txt) ##########
+FarmTech Solutions - Fazenda modelo (interior de São Paulo)
+Culturas atendidas: cana-de-açúcar (retângulo) e laranja (trapézio).
+Carregar os dados já exportados em dados/plantios.csv? (s/n): >> 5 registro(s) carregado(s) de plantios.csv.
+
+=========== FarmTech Solutions ===========
+1 - Cadastrar plantio
+2 - Listar dados e resultados
+3 - Atualizar registro
+4 - Excluir registro
+5 - Exportar dados para CSV
+6 - Sair
+==========================================
+Escolha uma opção: 
+====================================================================================================
+Idx  ID Cultura              Área (m²)  Área (ha) Produto                        Dose   Insumo (L)
+----------------------------------------------------------------------------------------------------
+  0   1 Cana-de-açúcar      360.000,00      36,00 Herbicida Tebutiurom      3,50 L/ha       126,00
+  1   2 Cana-de-açúcar      260.000,00      26,00 Herbicida Tebutiurom      4,00 L/ha       104,00
+  2   3 Cana-de-açúcar      750.000,00      75,00 Maturador Sulfometuron    0,90 L/ha        67,50
+  3   4 Laranja              93.600,00       9,36 Oleo mineral            500,00 mL/m     6.000,00
+  4   5 Laranja              76.800,00       7,68 Fungicida cuprico       300,00 mL/m     2.760,00
+----------------------------------------------------------------------------------------------------
+Resumo por cultura:
+  Cana-de-açúcar    3 registro(s) | 137,00 ha | 297,50 L de insumo
+  Laranja           2 registro(s) | 17,04 ha | 8.760,00 L de insumo
+  TOTAL             5 registro(s) | 154,04 ha | 9.057,50 L de insumo
+====================================================================================================
+
+=========== FarmTech Solutions ===========
+1 - Cadastrar plantio
+2 - Listar dados e resultados
+3 - Atualizar registro
+4 - Excluir registro
+5 - Exportar dados para CSV
+6 - Sair
+==========================================
+Escolha uma opção: 
+--- Atualização de registro ---
+
+====================================================================================================
+Idx  ID Cultura              Área (m²)  Área (ha) Produto                        Dose   Insumo (L)
+----------------------------------------------------------------------------------------------------
+  0   1 Cana-de-açúcar      360.000,00      36,00 Herbicida Tebutiurom      3,50 L/ha       126,00
+  1   2 Cana-de-açúcar      260.000,00      26,00 Herbicida Tebutiurom      4,00 L/ha       104,00
+  2   3 Cana-de-açúcar      750.000,00      75,00 Maturador Sulfometuron    0,90 L/ha        67,50
+  3   4 Laranja              93.600,00       9,36 Oleo mineral            500,00 mL/m     6.000,00
+  4   5 Laranja              76.800,00       7,68 Fungicida cuprico       300,00 mL/m     2.760,00
+----------------------------------------------------------------------------------------------------
+Resumo por cultura:
+  Cana-de-açúcar    3 registro(s) | 137,00 ha | 297,50 L de insumo
+  Laranja           2 registro(s) | 17,04 ha | 8.760,00 L de insumo
+  TOTAL             5 registro(s) | 154,04 ha | 9.057,50 L de insumo
+====================================================================================================
+Índice do registro que deseja atualizar (ENTER cancela): 
+  Índice 0 | ID 1 | Cana-de-açúcar
+    dimensões não gravadas no CSV - informe-as ao atualizar o registro
+    Área: 360.000,00 m²  (36,00 ha)
+    Produto: Herbicida Tebutiurom | Dose: 3,50 L/ha
+    Insumo total: 126,00 L
+
+O que deseja atualizar?
+  1 - Dimensões do talhão
+  2 - Produto e dose
+  3 - Tudo (inclusive a cultura)
+  0 - Cancelar
+Opção: (ENTER mantém o valor atual)
+Registro carregado do CSV: informe novamente as medidas do talhão.
+Comprimento do talhão (m): Largura do talhão (m): Produto aplicado [Herbicida Tebutiurom]: Dose do produto (L/ha) [3.5]:   !! O valor precisa ser maior que 0.00.
+Dose do produto (L/ha) [3.5]: 
+>> Registro atualizado e resultados recalculados.
+
+  Índice 0 | ID 1 | Cana-de-açúcar
+    Comprimento do talhão: 800,00 | Largura do talhão: 450,00
+    Área: 360.000,00 m²  (36,00 ha)
+    Produto: Herbicida Tebutiurom | Dose: 3,50 L/ha
+    Insumo total: 126,00 L
+
+=========== FarmTech Solutions ===========
+1 - Cadastrar plantio
+2 - Listar dados e resultados
+3 - Atualizar registro
+4 - Excluir registro
+5 - Exportar dados para CSV
+6 - Sair
+==========================================
+Escolha uma opção: 
+====================================================================================================
+Idx  ID Cultura              Área (m²)  Área (ha) Produto                        Dose   Insumo (L)
+----------------------------------------------------------------------------------------------------
+  0   1 Cana-de-açúcar      360.000,00      36,00 Herbicida Tebutiurom      3,50 L/ha       126,00
+  1   2 Cana-de-açúcar      260.000,00      26,00 Herbicida Tebutiurom      4,00 L/ha       104,00
+  2   3 Cana-de-açúcar      750.000,00      75,00 Maturador Sulfometuron    0,90 L/ha        67,50
+  3   4 Laranja              93.600,00       9,36 Oleo mineral            500,00 mL/m     6.000,00
+  4   5 Laranja              76.800,00       7,68 Fungicida cuprico       300,00 mL/m     2.760,00
+----------------------------------------------------------------------------------------------------
+Resumo por cultura:
+  Cana-de-açúcar    3 registro(s) | 137,00 ha | 297,50 L de insumo
+  Laranja           2 registro(s) | 17,04 ha | 8.760,00 L de insumo
+  TOTAL             5 registro(s) | 154,04 ha | 9.057,50 L de insumo
+====================================================================================================
+
+=========== FarmTech Solutions ===========
+1 - Cadastrar plantio
+2 - Listar dados e resultados
+3 - Atualizar registro
+4 - Excluir registro
+5 - Exportar dados para CSV
+6 - Sair
+==========================================
+Escolha uma opção: 
+--- Exclusão de registro ---
+
+====================================================================================================
+Idx  ID Cultura              Área (m²)  Área (ha) Produto                        Dose   Insumo (L)
+----------------------------------------------------------------------------------------------------
+  0   1 Cana-de-açúcar      360.000,00      36,00 Herbicida Tebutiurom      3,50 L/ha       126,00
+  1   2 Cana-de-açúcar      260.000,00      26,00 Herbicida Tebutiurom      4,00 L/ha       104,00
+  2   3 Cana-de-açúcar      750.000,00      75,00 Maturador Sulfometuron    0,90 L/ha        67,50
+  3   4 Laranja              93.600,00       9,36 Oleo mineral            500,00 mL/m     6.000,00
+  4   5 Laranja              76.800,00       7,68 Fungicida cuprico       300,00 mL/m     2.760,00
+----------------------------------------------------------------------------------------------------
+Resumo por cultura:
+  Cana-de-açúcar    3 registro(s) | 137,00 ha | 297,50 L de insumo
+  Laranja           2 registro(s) | 17,04 ha | 8.760,00 L de insumo
+  TOTAL             5 registro(s) | 154,04 ha | 9.057,50 L de insumo
+====================================================================================================
+Índice do registro que deseja excluir (ENTER cancela): 
+  Índice 0 | ID 1 | Cana-de-açúcar
+    Comprimento do talhão: 800,00 | Largura do talhão: 450,00
+    Área: 360.000,00 m²  (36,00 ha)
+    Produto: Herbicida Tebutiurom | Dose: 3,50 L/ha
+    Insumo total: 126,00 L
+
+Confirma a exclusão deste registro? (s/n): >> Exclusão cancelada.
+
+=========== FarmTech Solutions ===========
+1 - Cadastrar plantio
+2 - Listar dados e resultados
+3 - Atualizar registro
+4 - Excluir registro
+5 - Exportar dados para CSV
+6 - Sair
+==========================================
+Escolha uma opção: 
+--- Exclusão de registro ---
+
+====================================================================================================
+Idx  ID Cultura              Área (m²)  Área (ha) Produto                        Dose   Insumo (L)
+----------------------------------------------------------------------------------------------------
+  0   1 Cana-de-açúcar      360.000,00      36,00 Herbicida Tebutiurom      3,50 L/ha       126,00
+  1   2 Cana-de-açúcar      260.000,00      26,00 Herbicida Tebutiurom      4,00 L/ha       104,00
+  2   3 Cana-de-açúcar      750.000,00      75,00 Maturador Sulfometuron    0,90 L/ha        67,50
+  3   4 Laranja              93.600,00       9,36 Oleo mineral            500,00 mL/m     6.000,00
+  4   5 Laranja              76.800,00       7,68 Fungicida cuprico       300,00 mL/m     2.760,00
+----------------------------------------------------------------------------------------------------
+Resumo por cultura:
+  Cana-de-açúcar    3 registro(s) | 137,00 ha | 297,50 L de insumo
+  Laranja           2 registro(s) | 17,04 ha | 8.760,00 L de insumo
+  TOTAL             5 registro(s) | 154,04 ha | 9.057,50 L de insumo
+====================================================================================================
+Índice do registro que deseja excluir (ENTER cancela): >> Exclusão cancelada.
+
+=========== FarmTech Solutions ===========
+1 - Cadastrar plantio
+2 - Listar dados e resultados
+3 - Atualizar registro
+4 - Excluir registro
+5 - Exportar dados para CSV
+6 - Sair
+==========================================
+Escolha uma opção: Exportar os dados antes de sair? (s/n): 
+Encerrando. Bom plantio!

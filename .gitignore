@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.python-version
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Sistema operacional / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Arquivos temporários e sensíveis
+*.log
+*.tmp
+*.bak
+.env
+credenciais*
+*.key
+~$*.docx
+
+# Auxiliares gerados pelos testes
+testes/tmp/

@@ -1,0 +1,64 @@
+n
+9
+1
+1
+abc
+-100
+800
+450
+Herbicida Tebutiurom
+3,5
+1
+1
+620
+380
+Herbicida Tebutiurom
+4
+1
+1
+1250
+600
+Maturador Sulfometuron
+0.9
+1
+2
+420
+300
+260
+48,5
+48
+250
+Oleo mineral
+500
+1
+2
+380
+260
+240
+40
+230
+Fungicida cuprico
+300
+1
+2
+300
+200
+150
+30
+180
+Oleo mineral
+450
+2
+3
+99
+1
+1
+650
+400
+4
+5
+s
+2
+5
+6
+n
